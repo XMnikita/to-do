@@ -1,0 +1,34 @@
+.NavBar {
+  margin-top: 20px;
+  /* margin: 0px 8px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.NavBar button {
+  margin: 0px 8px;
+}
+
+.NavBar ul {
+  list-style: none;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #34373d;
+  font-size: 14px;
+}
+
+.NavBarContainer {
+  flex-grow: 1;
+  max-width: 290px;
+  min-width: 50px;
+  background: rgb(238, 238, 238);
+  border-right: 1px solid #ccc;
+  transition: flex-grow 0.3s, width 0.3s;
+}
+
+.NavBarContainer.closed {
+  width: 50px;
+  flex-grow: 0;
+  /* transition: flex-grow 0.3s, width 0.3s; */
+}

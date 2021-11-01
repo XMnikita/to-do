@@ -1,0 +1,30 @@
+.NavBarListItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  font-family: 'Roboto', serif;
+  cursor: pointer;
+}
+
+.NavBarListItem:hover {
+  background: white;
+}
+
+.NavBarListItem i {
+  margin-right: 8px;
+  color: #465efc;
+}
+
+.NavBarListItem div {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.NavBarListItem.selected {
+  font-weight: bold;
+  color: #465efc;
+  background: rgba(0, 0, 0, 0.043);
+}

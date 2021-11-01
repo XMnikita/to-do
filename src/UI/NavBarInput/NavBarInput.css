@@ -1,0 +1,27 @@
+.NavBarInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  color: #465efc;
+  font-family: 'Roboto', serif;
+  font-weight: bold;
+}
+
+.NavBarInput i {
+  /* color: #465efc; */
+  margin-right: 8px;
+}
+
+.NavBarInput input {
+  outline: none;
+  flex-grow: 1;
+  height: 24px;
+  font-size: 14px;
+  font-family: 'Roboto', serif;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+}
+.NavBarInput:hover {
+  background: white;
+}
