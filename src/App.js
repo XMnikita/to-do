@@ -43,7 +43,7 @@ function App() {
 
   async function stateToFirebase(data) {
     const url =
-      'https://todo-828f2-default-rtdb.europe-west1.firebasedatabase.app/projects/-Mn7NvBXnS2oP-XlOvLg.json'
+      'https://todoapp-3c6d9-default-rtdb.europe-west1.firebasedatabase.app/projects/-Mn7NvBXnS2oP-XlOvLg.json'
     try {
       fetch(url, {
         method: 'PUT', // или 'PUT'
@@ -80,7 +80,7 @@ function App() {
 
   async function stateFromFirebase() {
     fetch(
-      'https://todo-828f2-default-rtdb.europe-west1.firebasedatabase.app/projects/-Mn7NvBXnS2oP-XlOvLg.json'
+      'https://todoapp-3c6d9-default-rtdb.europe-west1.firebasedatabase.app/projects/-Mn7NvBXnS2oP-XlOvLg.json'
     )
       .then((response) => {
         return response.json()
